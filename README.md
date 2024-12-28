@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 3. Baixe o modelo treinado:
-   - Acesse [este link do Google Drive](https://drive.google.com/drive/folders/seu_link_aqui)
+   - Acesse [este link do Google Drive](https://drive.google.com/drive/u/0/folders/1CeX0Kcr6WKHVIItjV_XeKYM9FVg9Z8P9)
    - Baixe o arquivo `modelo_rf.pkl`
    - Coloque o arquivo na raiz do projeto
 
