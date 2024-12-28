@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador Mega Sena - IA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="timer"></div>
+    <div class="container">
+        <header>
+            <h1>Gerador Inteligente Mega Sena</h1>
+            <p class="subtitle">Powered by Machine Learning</p>
+        </header>
+
+        <div class="config-panel">
+            <div class="config-item">
+                <label for="dezenas">Quantidade de Dezenas:</label>
+                <select id="dezenas" class="select-custom">
+                    <option value="6">6 dezenas</option>
+                    <option value="7">7 dezenas</option>
+                    <option value="8">8 dezenas</option>
+                    <option value="9">9 dezenas</option>
+                    <option value="10">10 dezenas</option>
+                    <option value="11">11 dezenas</option>
+                    <option value="12">12 dezenas</option>
+                </select>
+            </div>
+
+            <div class="config-item">
+                <label for="cartoes">Quantidade de Cartões:</label>
+                <select id="cartoes" class="select-custom">
+                    <option value="1">1 cartão</option>
+                    <option value="2">2 cartões</option>
+                    <option value="3">3 cartões</option>
+                    <option value="4">4 cartões</option>
+                    <option value="5">5 cartões</option>
+                    <option value="6">6 cartões</option>
+                    <option value="7">7 cartões</option>
+                    <option value="8">8 cartões</option>
+                    <option value="9">9 cartões</option>
+                    <option value="10">10 cartões</option>
+                </select>
+            </div>
+
+            <button id="gerarJogos" class="btn-gerar">Gerar Jogos</button>
+        </div>
+
+        <div class="loading-spinner" style="display: none;">
+            <div class="spinner"></div>
+            <p>Processando com IA...</p>
+        </div>
+
+        <div id="resultados" class="resultados">
+            <!-- Jogos gerados serão inseridos aqui -->
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Gerador Mega Sena IA - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
