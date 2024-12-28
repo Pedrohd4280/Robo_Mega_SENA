@@ -32,4 +32,10 @@ ENV/
 
 # System files
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Exclude large files
+*.pkl
+*.h5
+*.model
+*.pyc 
